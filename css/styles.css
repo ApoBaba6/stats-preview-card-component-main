@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+
+:root {
+  --clr-primary-very-dark-blue: hsl(233, 47%, 7%);
+  --clr-primary-dark-desatura-blue: hsl(244, 38%, 16%);
+  --clr-primary-sofr-violet: hsl(277, 64%, 61%);
+
+  --clr-neutral-slightly-white-mainparagraph: hsla(0, 0%, 100%, 0.75);
+  --clr-neutral-slightlt-trans-whitestatheadings: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+
+  font-family: "Inter";
+  background-color: hsl(233, 47%, 7%);
+
+
+}
+
+/* Cards */
+
+
+
+.card {
+  max-width: 60%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rem;
+  overflow: hidden;
+
+}
+
+/* Left Card */
+
+.card-left {
+  max-width: 60%;
+  background-color: hsl(244, 38%, 16%);
+  padding: 55px;
+  padding-right: 150px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.heading-text {
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
+}
+
+.insights {
+  color: hsl(277, 64%, 61%);
+}
+
+.sub-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 30px;
+
+}
+
+
+.card-right {
+  background-color: hsl(277, 64%, 61%);
+  opacity: .5;
+}
+
+.image {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: block;
+}
+
+
+/* Features */
+
+.features {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.tx {
+  font-size: 25px;
+  color: white;
+  font-style: 700;
+  margin-top: 5rem;
+  font-family: "Lexend Deca"
+
+}
+
+.ts {
+  font-size: 15px;
+  margin-top: 5px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
